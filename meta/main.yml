@@ -1,0 +1,18 @@
+galaxy_info:
+  author: Eugene Zamriy
+  description: Installs CloudLinux Extras repository on EL 5/6/7
+  company: CloudLinux
+  license: MIT
+  min_ansible_version: 2.1
+  platforms:
+    - name: EL
+      versions:
+        - 5
+        - 6
+        - 7
+  galaxy_tags:
+    - cloudlinux
+    - packaging
+    - repository
+    - repo
+dependencies: []

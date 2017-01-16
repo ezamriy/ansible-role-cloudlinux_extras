@@ -1,0 +1,8 @@
+- name: Adding CloudLinux Extras repository
+  yum_repository:
+    name: cloudlinux-extras
+    description: CloudLinux Extras $releasever
+    baseurl: http://repo.cloudlinux.com/cloudlinux/$releasever/extras/$basearch/
+    gpgcheck: yes
+    gpgkey: http://repo.cloudlinux.com/cloudlinux/security/RPM-GPG-KEY-CloudLinux
+    enabled: "{{ cloudlinux_extras_enabled }}"
